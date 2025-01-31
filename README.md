@@ -11,6 +11,7 @@
 - **React**
 - **TypeScript**
 - **Vite**
+- **GreenAPI**
 
 ## Установка и запуск проекта
 
