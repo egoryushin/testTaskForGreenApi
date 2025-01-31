@@ -1,0 +1,23 @@
+.myInput {
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #333;
+	background-color: #fff;
+	outline: none;
+	margin-bottom: 10px;
+	transition: border-color 0.3s ease;
+
+	&::placeholder {
+		color: #999;
+		font-size: 16px;
+	}
+
+	&:focus {
+		border-color: #25d366;
+		box-shadow: 0 0 5px rgba(37, 211, 102, 0.4);
+	}
+}

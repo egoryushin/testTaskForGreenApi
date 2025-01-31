@@ -1,0 +1,36 @@
+/* components/Notifications/styles.module.css */
+.notificationsContainer {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+.notification {
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	color: white;
+	animation: slideIn 0.5s ease-out;
+}
+
+.notification.info {
+	background-color: #2196f3;
+}
+
+.notification.success {
+	background-color: #4caf50;
+}
+
+.notification.error {
+	background-color: #f44336;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
